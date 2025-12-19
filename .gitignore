@@ -35,3 +35,7 @@ build/
 config/application.yaml
 **/*.ini
 h2/**
+
+##mcp server created data
+mcp-data/*
+

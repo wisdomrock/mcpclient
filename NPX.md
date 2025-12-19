@@ -39,3 +39,7 @@ npx -y @modelcontextprotocol/server-filesystem C:\Users\wisdo\ai-test\mcp-data
 
 Or even config "command" with absolute path to npx executable: "command": "D:\\MyPrograms\\nodejs\\npx"
 However npx is not a valid Win32 program, on Windows we must config "command": "npx.cmd"
+
+## Send messages to LLM
+Who are you and how can you help me?
+create a file named hello.txt in your current working directory with content 'Hello World'

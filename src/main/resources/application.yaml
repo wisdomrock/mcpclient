@@ -11,6 +11,13 @@ spring:
       client:
         stdio:
           servers-configuration: 'classpath:mcp-servers.json'
+    chat:
+      memory:
+        enabled: true
+        # For InMemoryChatMemory (default)
+        store: in-memory
+        # Optional: Configure capacity
+        capacity: 5
 
 logging:
   charset:

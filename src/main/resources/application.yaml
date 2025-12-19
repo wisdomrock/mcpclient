@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: mcpclient
+  devtools:
+    restart:
+      enabled: false
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+
+logging:
+  charset:
+    file: UTF-8
+    console: UTF-8
+  pattern:
+    console: '%green(%d{yyyy-MM-dd HH:mm:ss.SSS}) [%thread] %blue(%-5level) %yellow(%logger{36}) - %msg%n'
+  level:
+    org.springframework.ai.chat.client.advisor: debug
